@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/under-the-eiffel-tower-black-and-white-liesl-walsh.jpg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header {
+  color: white;
+  margin-top: 10px;
+  background: rgba(128, 128, 128, 0.5);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 30px;
+  
+}
+
+label {
+  margin-left: 2px;
+  line-height: 1.5;
+}
+
+#title {
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+span {
+  text-decoration: underline overline #FF3028;
+}
+
+#deadline {
+  text-decoration: none;
+  font-weight: 900;
+}
+
+#description {
+  font-style: italic;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.form-container {
+  background-color: rgba(234, 13, 13, 0.7);
+  color: white;
+  display: inline-block;
+  padding: 50px 35px 50px 35px;
+  width: 60%;
+  border-radius: 10px;
+  font-size: 23px;
+}
+
+.form-container:hover {
+  background-color: rgba(234, 13, 13, 0.65);
+}
+
+#survey-form {
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 1;
+  overflow-y: scroll;
+}
+
+#name, #email, #number {
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  border-style: none;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border-style: none;
+  margin-top: 10px;
+  margin-bottom: 22px;
+}
+
+::placeholder {
+  color:;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+}
+
+select[type="dropdown"] {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  padding: 2px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+input[type="text"] {
+  padding: 2px;
+  font-size: 22px;
+  margin: 3px;
+}
+
+input[type="email"] {
+  padding: 2px;
+  font-size: 22px;
+  margin: 3px;
+}
+
+input[type="number"] {
+  padding: 2px;
+  font-size: 22px;
+  margin: 3px;
+}
+
+input[type="radio"] {
+  margin-top: 15px;
+}
+
+input[type="checkbox"] {
+  margin-bottom: 15px;
+}
+
+#locations {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  line-height: 1.5;
+}
+
+button {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  border-style: none;
+  background: grey;
+  color: white;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+button:hover {
+  background-color: black;
+}
+
+/*
+urls:
+https://images.fineartamerica.com/images-medium-large-5/eiffel-tower-in-black-and-white-heidi-hermes.jpg
+
+
+
+*/

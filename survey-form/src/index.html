@@ -1,0 +1,66 @@
+<DOCTYPE html>
+
+  <head>
+    <title>Study Abroad Survey</title>
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">Study Abroad <span>Survey Form</span></h1>
+      <p id="description">Please register your interest by <span id="deadline">March 1st</span></p>
+    </header>
+    <div class="form-container">
+      <form id="survey-form">
+        <label id="name-label">Name</label><br>
+        <input id="name" type="text" placeholder="Enter your name" required><br>
+        <label id="email-label">Email</label><br>
+        <input id="email" type="email" placeholder="Enter your name" required><br>
+        <label id="number-label">College Year</label><br>
+        <input id="number" type="number" type="range" min="1" max="5+" placeholder="Select your year" required><br>
+        <label>Which option best describes your current interest?</label><br>
+        <select type="dropdown" id="dropdown">
+          <option value="" disabled selected>Select your option</option>
+          <option value="course">Course</option>
+          <option value="course-internship">Course + Internship</option>
+          <option value="service-learning">Service Learning</option>
+        </select><br>
+        <label>Have you studied abroad in the past?</label><br>
+        <input type="radio" name="yes-no" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" name="yes-no" value="no">
+        <label for="no">No</label><br>
+
+        <p id="locations">Which locations are you interested in? (Check all that apply)</p>
+        <input type="checkbox" value="London">
+        <label>London, England</label><br>
+        <input type="checkbox" value="Paris">
+        <label>Paris, France</label><br>
+        <input type="checkbox" value="Tokyo">
+        <label>Tokyo, Japan</label><br>
+        <input type="checkbox" value="Berlin">
+        <label>Berlin, Germany</label><br>
+        <input type="checkbox" value="Rome">
+        <label>Rome, Italy</label><br>
+        <input type="checkbox" value="Barcelona">
+        <label>Barcelona, Spain</label><br>
+        <input type="checkbox" value="San-Jose">
+        <label>San Jose, Costa Rica</label><br>
+        <input type="checkbox" value="Mexico-City">
+        <label>Mexico City, Mexico</label><br>
+        <input type="checkbox" value="Buenos-Aires">
+        <label>Buenos Aires, Argentina</label><br>
+        <input type="checkbox" value="Sydney">
+        <label>Sydney, Australia</label><br>
+        <input type="checkbox" value="Cape-Town">
+        <label>Cape Town, South Africa</label><br>
+        <input type="checkbox" value="Toronto">
+        <label>Toronto, Canada</label><br><br>
+        <label id="comments">Any comments or suggestions?</label><br>
+        <textarea type="textarea" placeholder="Enter your comment here..." rows="5" cols="0"></textarea><br>
+
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
